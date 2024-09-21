@@ -107,6 +107,14 @@ span{
     color: #434455; 
 }
 
+.nav-link:hover {
+  color: #404bbf; 
+}
+
+.nav-link:focus {
+  color: #404bbf;
+}
+
   .servicess{
     background-color: #2e2f42;
   }
