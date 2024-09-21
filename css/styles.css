@@ -107,12 +107,9 @@ span{
     color: #434455; 
 }
 
-.nav-link:hover {
-  color: #404bbf; 
-}
-
+.nav-link:hover,
 .nav-link:focus {
-  color: #404bbf;
+  color: #404bbf; 
 }
 
   .servicess{
