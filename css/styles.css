@@ -107,19 +107,19 @@ span{
     color: #434455;
 }
 
+.phone{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
 .gmail:hover {
     color: #404bbf; 
   }
   
 .gmail:focus {
     color: #404bbf;
-  }
-
-  .phone{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
   }
 
 .phone:hover {
