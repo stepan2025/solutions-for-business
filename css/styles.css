@@ -100,33 +100,18 @@ span{
     font-style: normal;
   }
 
-.gmail{
+.nav-link{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.gmail:hover {
+.nav-link{
     color: #404bbf; 
   }
   
-.gmail:focus {
-    color: #404bbf;
-  }
-
-  .phones{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.phones:hover {
-    color: #404bbf; 
-  }
-  
-.phones:focus {
+.nav-link {
     color: #404bbf;
   }
 
