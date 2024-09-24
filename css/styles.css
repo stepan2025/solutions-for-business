@@ -22,13 +22,14 @@ ul, ol {
 }
 
 .logo-one{
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold; 
-    font-size: 56px;
-    letter-spacing: 0.02em; 
-    line-height: 1.07;
-    text-align:center;
-    color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold; 
+  font-size: 56px;
+  letter-spacing: 0.02em; 
+  line-height: 1.07;
+  color: #ffffff;
+  text-align: center;   
+  max-width: 496px;
 }
 
 .button{
@@ -40,6 +41,12 @@ ul, ol {
     cursor: pointer;
     background-color: #4D5AE5 ;
     color: #ffffff;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 auto; 
 }
 
 .button:hover {
@@ -112,9 +119,9 @@ span{
   color: #404bbf; 
 }
 
-  .servicess{
-    background-color: #2e2f42;
-  }
+.servicess{
+  background-color: #2e2f42;
+}
 
   .strategy_item{
     font-weight: 500;
@@ -254,24 +261,4 @@ span{
 
 img{
   display:block;
-}
-
-.services {
-  padding: 188px 0;
-}
-
-.logo-one {
-  max-width: 496px;
-
-}
-
-.button {
-  display: block;
-  min-width: 169px;
-  height: 56px;
-  border: none;
-  background-color: var(--button-bg-color, #4d5ae5);
-  border-radius: 4px;
-  cursor: pointer;
-  margin: 0 auto; 
 }
