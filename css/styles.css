@@ -278,10 +278,6 @@ img{
 
 /* section 2 */
 
-.order_section {
-  padding: 120px 0; 
-}
-
 .strategy_list {
   display: flex; 
   gap: 24px; 
