@@ -1,79 +1,24 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 16px; 
-    line-height: 24px; 
-    letter-spacing: 0.02em; 
-    color: #434455;
-    background-color: #fff;
+body{
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 16px; 
+line-height: 24px; 
+letter-spacing: 0.02em; 
+color: #434455;
+background-color: #fff;
 }
 
 a {
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400; 
-    font-size: 12px; 
-    line-height: 16px; 
-    letter-spacing: 0.04em; 
+text-decoration: none;
+font-family: 'Roboto', sans-serif;
+font-weight: 400; 
+font-size: 12px; 
+line-height: 16px; 
+letter-spacing: 0.04em; 
 }
 
 ul, ol {
-    list-style-type: none;
-}
-
-
-/* header  */
-
-.logo{
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-}
-
-span{
-    color: #2e2f42;
-}
-
-.studio{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.studio:hover {
-    color: #404bbf; 
-  }
-  
-.studio:focus {
-    color: #404bbf;
-  }
-
-.ad-inf{
-    font-style: normal;
-  }
-
-.nav-link{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455; 
-}
-
-.nav-link:hover,
-.nav-link:focus {
-  color: #404bbf; 
-}
-
-/* section 1 */
-
-.servicess{
-  background-color: #2e2f42;
+list-style-type: none;
 }
 
 .logo-one{
@@ -82,8 +27,9 @@ span{
   font-size: 56px;
   letter-spacing: 0.02em; 
   line-height: 1.07;
-  color: #ffffff; 
-  text-align: center;  
+  color: #ffffff;
+  text-align: center;   
+  max-width: 496px;
 }
 
 .button{
@@ -111,47 +57,135 @@ span{
     background-color:  #404BBF;
   }
 
-  .strategy_item{
+.logo{
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+}
+
+span{
+color: #2e2f42;
+}
+
+.studio{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+
+.studio:hover {
+color: #404bbf; 
+}
+
+.studio:focus {
+color: #404bbf;
+}
+
+  .Contacts{
     font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
   }
 
-  .goal{
+.Contacts:hover {
+    color: #404bbf; 
+  }
+  
+.Contacts:focus {
+    color: #404bbf;
+  }
+
+.ad-inf{
+font-style: normal;
+}
+
+.nav-link{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455; 
+}
+
+.nav-link:hover,
+.nav-link:focus {
+color: #404bbf; 
+}
+
+/* section 1 */
+
+.servicess{
+  background-color: #2e2f42;
+}
+
+.strategy_item{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+
+.goal{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+  .brands{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
   }
 
-/* section 3 */
-
-  .team{
-    background-color: #F4F4FD;
-  }
-
-  .our-team{
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color:#2e2f42;
-  }
-
-  .idn{
-    background-color: #FFFFFF;
-  }
-
-  .mark{
+  .technologies_item{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
   }
+
+  .Design{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+
+.team{
+background-color: #F4F4FD;
+}
+
+.our-team{
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color:#2e2f42;
+}
+
+.idn{
+background-color: #FFFFFF;
+}
+
+.mark{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
 
   .products{
     font-size: 16px;
@@ -160,16 +194,14 @@ span{
     color: #434455 ;
   }
 
-/*  section 4 */
-
-  .portfolio{
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-  }
+.portfolio{
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2e2f42;
+}
 
   .app{
     font-weight: 500;
@@ -179,24 +211,56 @@ span{
     color: #2e2f42;
   }
 
-.text{
-  font-size: 16px; 
-  line-height: 1.5; 
-  letter-spacing: 0.02em; 
-  color: #434455;
-}
-
-/* footer */
-
   .footer{
     background-color: #2e2f42;
-    margin-bottom:-16px;
   }
 
-  .span-footer{
+  .spann{
     color: #f4f4fd ;
   }
 
-  .text-footer{
+  .texxt{
     color: #F4F4FD;
   }
+
+  .main-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.container {
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 76px;
+}
+
+.menu-list {
+    display: flex;
+    gap: 40px; 
+}
+
+.menu-item {
+    padding: 24px 0; 
+}
+
+.ad-inf {
+    display: flex;
+}
+
+.contact-list {
+    display: flex;
+    gap: 40px; 
+}
+
+img{
+  display:block;
+}
