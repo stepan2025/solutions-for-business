@@ -21,41 +21,8 @@ ul, ol {
     list-style-type: none;
 }
 
-.logo-one{
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold; 
-  font-size: 56px;
-  letter-spacing: 0.02em; 
-  line-height: 1.07;
-  color: #ffffff;
-  text-align: center;   
-  max-width: 496px;
-}
 
-.button{
-    font-family: 'Roboto', sans-serif; 
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em; 
-    cursor: pointer;
-    background-color: #4D5AE5 ;
-    color: #ffffff;
-    display: block;
-    min-width: 169px;
-    height: 56px;
-    border: none;
-    border-radius: 4px;
-    margin: 0 auto; 
-}
-
-.button:hover {
-    background-color: #404BBF; 
-  }
-  
-.button:focus {
-    background-color:  #404BBF;
-  }
+/* header  */
 
 .logo{
     font-family: "Raleway", sans-serif;
@@ -87,22 +54,6 @@ span{
     color: #404bbf;
   }
 
-  .Contacts{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-  }
-
-.Contacts:hover {
-    color: #404bbf; 
-  }
-  
-.Contacts:focus {
-    color: #404bbf;
-  }
-
 .ad-inf{
     font-style: normal;
   }
@@ -119,9 +70,46 @@ span{
   color: #404bbf; 
 }
 
+/* section 1 */
+
 .servicess{
   background-color: #2e2f42;
 }
+
+.logo-one{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold; 
+  font-size: 56px;
+  letter-spacing: 0.02em; 
+  line-height: 1.07;
+  color: #ffffff; 
+  text-align: center;  
+}
+
+.button{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em; 
+    cursor: pointer;
+    background-color: #4D5AE5 ;
+    color: #ffffff;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 auto; 
+}
+
+.button:hover {
+    background-color: #404BBF; 
+  }
+  
+.button:focus {
+    background-color:  #404BBF;
+  }
 
   .strategy_item{
     font-weight: 500;
@@ -138,27 +126,7 @@ span{
     color: #434455;
   }
 
-  .brands{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-  }
-
-  .technologies_item{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-  }
-
-  .Design{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-  }
+/* section 3 */
 
   .team{
     background-color: #F4F4FD;
@@ -192,6 +160,8 @@ span{
     color: #434455 ;
   }
 
+/*  section 4 */
+
   .portfolio{
     font-size: 36px;
     line-height: 1.11;
@@ -209,56 +179,24 @@ span{
     color: #2e2f42;
   }
 
+.text{
+  font-size: 16px; 
+  line-height: 1.5; 
+  letter-spacing: 0.02em; 
+  color: #434455;
+}
+
+/* footer */
+
   .footer{
     background-color: #2e2f42;
+    margin-bottom:-16px;
   }
 
-  .spann{
+  .span-footer{
     color: #f4f4fd ;
   }
 
-  .texxt{
+  .text-footer{
     color: #F4F4FD;
   }
-
-  .main-header {
-    border-bottom: 1px solid #e7e9fc;
-}
-
-.container {
-    display: flex;
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
-.nav-menu {
-    display: flex;
-    align-items: center;
-}
-
-.logo {
-    margin-right: 76px;
-}
-
-.menu-list {
-    display: flex;
-    gap: 40px; 
-}
-
-.menu-item {
-    padding: 24px 0; 
-}
-
-.ad-inf {
-    display: flex;
-}
-
-.contact-list {
-    display: flex;
-    gap: 40px; 
-}
-
-img{
-  display:block;
-}
