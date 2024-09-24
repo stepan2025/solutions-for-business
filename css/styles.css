@@ -260,13 +260,9 @@ img{
   padding: 188px 0;
 }
 
-.container {
-  /* Ваші стилі для контейнера */
-}
-
 .logo-one {
   max-width: 496px;
-  /* Інші стилі для заголовка */
+
 }
 
 .button {
@@ -277,5 +273,5 @@ img{
   background-color: var(--button-bg-color, #4d5ae5);
   border-radius: 4px;
   cursor: pointer;
-  margin: 0 auto; /* Додано для центрування кнопки */
+  margin: 0 auto; 
 }
