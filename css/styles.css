@@ -275,3 +275,40 @@ img{
   cursor: pointer;
   margin: 0 auto; 
 }
+
+.order-section {
+  padding: 120px 0; /* or padding: 120px 0 120px; */
+}
+
+.container {
+  max-width: 1200px; 
+  margin: 0 auto; 
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap; 
+}
+
+.strategy-list {
+  display: flex;
+  gap: 24px; 
+  list-style: none; 
+  padding: 0;
+  margin: 0; 
+}
+
+.strategy_item {
+  flex-basis: calc((100% - 72px) / 4);
+}
+
+.strategy_title {
+  margin-bottom: 8px;
+}
