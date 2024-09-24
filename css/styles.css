@@ -1,384 +1,263 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 16px; 
-    line-height: 24px; 
-    letter-spacing: 0.02em; 
-    color: #434455;
-    background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px; 
+  line-height: 24px; 
+  letter-spacing: 0.02em; 
+  color: #434455;
+  background-color: #fff;
 }
 
 a {
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400; 
-    font-size: 12px; 
-    line-height: 16px; 
-    letter-spacing: 0.04em; 
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400; 
+  font-size: 12px; 
+  line-height: 16px; 
+  letter-spacing: 0.04em; 
 }
 
 ul, ol {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .logo-one{
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold; 
-    font-size: 56px;
-    letter-spacing: 0.02em; 
-    line-height: 1.07;
-    text-align:center;
-    color: #ffffff;
+font-family: 'Roboto', sans-serif;
+font-weight: bold; 
+font-size: 56px;
+letter-spacing: 0.02em; 
+line-height: 1.07;
+color: #ffffff; 
+text-align: center;  
 }
 
 .button{
-    font-family: 'Roboto', sans-serif; 
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em; 
-    cursor: pointer;
-    background-color: #4D5AE5 ;
-    color: #ffffff;
-}
-
-.button:hover {
-    background-color: #404BBF; 
-  }
-  
-.button:focus {
-    background-color:  #404BBF;
-  }
-
-.logo{
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-}
-
-span{
-    color: #2e2f42;
-}
-
-.studio{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.studio:hover {
-    color: #404bbf; 
-  }
-  
-.studio:focus {
-    color: #404bbf;
-  }
-
-  .Contacts{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-  }
-
-.Contacts:hover {
-    color: #404bbf; 
-  }
-  
-.Contacts:focus {
-    color: #404bbf;
-  }
-
-.ad-inf{
-    font-style: normal;
-  }
-
-.nav-link{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455; 
-}
-
-.nav-link:hover,
-.nav-link:focus {
-  color: #404bbf; 
-}
-
-  .servicess{
-    background-color: #2e2f42;
-  }
-
-  .strategy_item{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-  }
-
-  .goal{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-  }
-
-  .brands{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-  }
-
-  .technologies_item{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-  }
-
-  .Design{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-  }
-
-  .team{
-    background-color: #F4F4FD;
-  }
-
-  .our-team{
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color:#2e2f42;
-  }
-
-  .idn{
-    background-color: #FFFFFF;
-  }
-
-  .mark{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-  }
-
-  .products{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455 ;
-  }
-
-  .portfolio{
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-  }
-
-  .app{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-  }
-
-  .footer{
-    background-color: #2e2f42;
-  }
-
-  .spann{
-    color: #f4f4fd ;
-  }
-
-  .texxt{
-    color: #F4F4FD;
-  }
-
-  .main-header {
-    border-bottom: 1px solid #e7e9fc;
-}
-
-.container {
-    display: flex;
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
-.nav-menu {
-    display: flex;
-    align-items: center;
-}
-
-.logo {
-    margin-right: 76px;
-}
-
-.menu-list {
-    display: flex;
-    gap: 40px; 
-}
-
-.menu-item {
-    padding: 24px 0; 
-}
-
-.ad-inf {
-    display: flex;
-}
-
-.contact-list {
-    display: flex;
-    gap: 40px; 
-}
-
-img{
-  display:block;
-}
-
-.services {
-  padding: 188px 0;
-}
-
-.logo-one {
-  max-width: 496px;
-
-}
-
-.button {
+  font-family: 'Roboto', sans-serif; 
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em; 
+  cursor: pointer;
+  background-color: #4D5AE5 ;
+  color: #ffffff;
   display: block;
   min-width: 169px;
   height: 56px;
   border: none;
-  background-color: var(--button-bg-color, #4d5ae5);
   border-radius: 4px;
-  cursor: pointer;
   margin: 0 auto; 
 }
 
-/* section 2 */
-
-.order_section {
-  padding: 120px 0; 
+.button:hover {
+  background-color: #404BBF; 
 }
 
-.strategy_list {
-  display: flex; 
-  gap: 24px; 
+.button:focus {
+  background-color:  #404BBF;
 }
 
-.strategy_item {
-  flex-basis: calc((100% - 72px) / 4); 
+.logo{
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
-.strategy_title {
-  margin-bottom: 8px; 
+span{
+  color: #2e2f42;
 }
 
-/* section 3 */
-
-.team-section {
-  padding: 120px 0;
+.studio{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
-.team-title {
-  margin-bottom: 72px;
+.studio:hover {
+  color: #404bbf; 
 }
 
-.team-list {
-  display: flex;
-  gap: 24px; 
+.studio:focus {
+  color: #404bbf;
 }
 
-.team-member {
-  width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px; 
+.Contacts{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
-.member-info {
-  padding: 32px 0; 
+.Contacts:hover {
+  color: #404bbf; 
 }
 
-.member-name {
-  text-align: center; 
-  margin-bottom: 8px; 
+.Contacts:focus {
+  color: #404bbf;
 }
 
-.member-title {
-  text-align: center; 
+.ad-inf{
+  font-style: normal;
 }
 
-.portfolio_section {
-  padding: 120px 0;
+.nav-link{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455; 
+}
+
+.nav-link:hover,
+.nav-link:focus {
+color: #404bbf; 
+}
+
+.servicess{
+background-color: #2e2f42;
+}
+
+.strategy_item{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.goal{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.brands{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.technologies_item{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.Design{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.team{
+  background-color: #F4F4FD;
+}
+
+.our-team{
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color:#2e2f42;
+}
+
+.idn{
+  background-color: #FFFFFF;
+}
+
+.mark{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.products{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455 ;
+}
+
+.portfolio{
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.app{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.footer{
+  background-color: #2e2f42;
+}
+
+.spann{
+  color: #f4f4fd ;
+}
+
+.texxt{
+  color: #F4F4FD;
+}
+
+.main-header {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .container {
-  /* Дефолтний стиль контейнера */
-}
-
-.portfolio_title {
-  margin-bottom: 72px;
-}
-
-.portfolio_list {
   display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
-.portfolio_item {
-  width: calc((100% - 48px) / 3);
-  margin-bottom: 48px; 
+.nav-menu {
+  display: flex;
+  align-items: center;
 }
 
-.portfolio_item:nth-child(3n) {
-  margin-right: 0; 
+.logo {
+  margin-right: 76px;
 }
 
-.portfolio_item:last-child {
-  margin-bottom: 0; 
+.menu-list {
+  display: flex;
+  gap: 40px; 
 }
 
-.app_container {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
+.menu-item {
+  padding: 24px 0; 
 }
 
-.app_title {
-  margin-bottom: 8px; 
+.ad-inf {
+  display: flex;
 }
 
-.footer {
-  padding: 100px 0;
+.contact-list {
+  display: flex;
+  gap: 40px; 
 }
 
-.footer_link {
-  display: inline-block; 
-  margin-bottom: 16px;
-}
-
-.footer_text {
-  max-width: 264px; 
+img{
+display:block;
 }
