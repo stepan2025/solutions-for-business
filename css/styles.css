@@ -278,28 +278,31 @@ img{
 
 /* section 2 */
 
+.order_section {
+  padding: 120px 0; 
+}
+
+.visually-hidden {
+  position: absolute; 
+  width: 1px;
+  height: 1px; 
+  margin: -1px; 
+  padding: 0; 
+  overflow: hidden; 
+  clip: rect(0, 0, 0, 0); 
+  border: 0; 
+}
+
 .strategy_list {
   display: flex; 
   gap: 24px; 
 }
 
-.strategy_item {
-  flex-basis: calc((100% - 72px) / 4); 
+.strategy_item-1{
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
-
-.strategy_title {
+.strategytitle-1{
   margin-bottom: 8px; 
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
 }
 
 /* section 3 */
