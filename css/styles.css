@@ -24,6 +24,22 @@ ul, ol {
 
 /* header  */
 
+.header-top{
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.container{
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+}
+
 .logo{
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -32,10 +48,16 @@ ul, ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 span{
   color: #2e2f42;
+}
+
+.menu-item{
+  display:flex;
+  gap: 40px;
 }
 
 .studio{
@@ -44,6 +66,7 @@ span{
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .studio:hover {
@@ -56,7 +79,21 @@ span{
 
 .ad-inf{
   font-style: normal;
+  display: flex;
 }
+
+.menu-item-2{
+  display: flex;
+  gap: 40px;
+}
+
+.menu-details-1{
+margin-right: 40px;
+}
+
+.menu-details-2{
+  margin-right: 0px;
+  }
 
 .nav-link{
   font-size: 16px;
