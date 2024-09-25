@@ -21,7 +21,6 @@ ul, ol {
   list-style-type: none;
 }
 
-
 /* header  */
 
 .header-top{
@@ -86,14 +85,6 @@ span{
   display: flex;
   gap: 40px;
 }
-
-.menu-details-1{
-margin-right: 40px;
-}
-
-.menu-details-2{
-  margin-right: 0px;
-  }
 
 .nav-link{
   font-size: 16px;
