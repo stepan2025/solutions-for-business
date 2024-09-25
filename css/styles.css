@@ -303,8 +303,22 @@ color: #434455;
 /* footer */
 
 .footer{
+  padding: 100px 0;
   background-color: #2e2f42;
   margin-bottom:-16px;
+}
+
+.logo_link{
+  display: inline-block;
+  margin-bottom: 16px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .span-footer{
@@ -312,5 +326,6 @@ color: #434455;
 }
 
 .text-footer{
+  max-width: 264px;
   color: #F4F4FD;
 }
