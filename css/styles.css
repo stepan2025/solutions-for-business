@@ -23,15 +23,17 @@ ul, ol {
 
 /* header  */
 
-.header-top{
+.header{
   border-bottom: 1px solid #e7e9fc;
 }
 
-.container{
+.container {
   width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-  display: flex;
+  margin: 0 auto; 
+  padding: 0 15px; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
 }
 
 .nav{
@@ -54,9 +56,18 @@ span{
   color: #2e2f42;
 }
 
+.menu{
+  display: flex; 
+  gap: 40px; 
+}
+
 .menu-item{
-  display:flex;
-  gap: 40px;
+  padding: 24px 0;
+}
+
+.contact-list {
+  display: flex;
+  gap: 40px; 
 }
 
 .studio{
