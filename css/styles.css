@@ -8,6 +8,10 @@ body {
   background-color: #fff;
 }
 
+img {
+  display: block;
+}
+
 a {
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
@@ -62,15 +66,6 @@ span{
 }
 
 .menu-item{
-  padding: 24px 0;
-}
-
-.contact-list {
-  display: flex;
-  gap: 40px; 
-}
-
-.studio{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -79,11 +74,11 @@ span{
   padding: 24px 0;
 }
 
-.studio:hover {
+.menu-item:hover {
   color: #404bbf; 
 }
 
-.studio:focus {
+.menu-item:focus {
   color: #404bbf;
 }
 
@@ -95,6 +90,11 @@ span{
 .menu-item-2{
   display: flex;
   gap: 40px;
+}
+
+.contact-list {
+  display: flex;
+  gap: 40px; 
 }
 
 .nav-link{
