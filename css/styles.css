@@ -12,6 +12,12 @@ img {
   display:block;
 }
 
+.container{
+  width: 1158px; 
+  padding: 0 15px; 
+  margin: 0 auto;
+}
+
 a {
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
@@ -28,12 +34,10 @@ ul { list-style: none; padding-left: 0; margin: 0; }
 
 .header{
   border-bottom: 1px solid #e7e9fc;
-}
-
-.container{
-  width: 1158px; 
-  padding: 0 15px; 
-  margin: 0 auto;
+  box-shadow: 
+  0px 2px 1px rgba(46, 47, 66, 0.08), 
+  0px 1px 1px rgba(46, 47, 66, 0.16), 
+  0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container{
@@ -117,8 +121,10 @@ background-image:
 linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
 url(../images/people-office1.jpg);
 background-repeat: no-repeat;
-background-position: center center;
+background-position: center;
 background-size: cover;
+max-width: 1440px;
+margin: 0 auto;
 }
 
 h1 {
@@ -153,6 +159,7 @@ h1 {
   border-radius: 4px;
   margin: 0 auto; 
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover {
