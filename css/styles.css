@@ -256,6 +256,7 @@ h1 {
 
 .team-preview{
   display: flex;
+  justify-content: center; 
   gap: 24px;
 }
 
