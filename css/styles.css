@@ -302,7 +302,7 @@ h1 {
   height: 40px;
 }
 
-.link-section-3 {
+.link-sections{
   width: 100%; 
   height: 100%; 
   background-color: var(--primary-color, #4d5ae5); 
@@ -312,8 +312,8 @@ h1 {
   justify-content: center; 
 }
 
-.link-section-3:hover,
-.link-section-3:focus {
+.link-sections:hover,
+.link-sections:focus {
   background-color: #404bbf; 
 }
 
