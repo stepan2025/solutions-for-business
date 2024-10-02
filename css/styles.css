@@ -417,6 +417,11 @@ color: #434455;
   margin-bottom:-16px;
 }
 
+.footer-container{
+  display: flex;
+  align-items: baseline;
+}
+
 .logo_link{
   display: inline-block;
   margin-bottom: 16px;
