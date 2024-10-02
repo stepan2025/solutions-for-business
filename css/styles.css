@@ -310,7 +310,6 @@ h1 {
   display: flex;
   align-items: center; 
   justify-content: center; 
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-sections:hover,
@@ -320,6 +319,7 @@ h1 {
 
 .social-icon {
   fill: var(--icon-color, #f4f4fd); 
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*  section 4 */
