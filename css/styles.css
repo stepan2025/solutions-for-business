@@ -300,6 +300,7 @@ h1 {
 .link-media{
   width: 40px; 
   height: 40px;
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-sections{
@@ -319,7 +320,6 @@ h1 {
 
 .social-icon {
   fill: var(--icon-color, #f4f4fd); 
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*  section 4 */
