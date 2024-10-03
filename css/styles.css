@@ -290,6 +290,7 @@ h1 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455 ;
+  margin-bottom: 8px;
 }
 
 .social-media{
@@ -432,4 +433,9 @@ color: #434455;
 
 .span-footer{
   color: #f4f4fd ;
+}
+
+.text-footer{
+  max-width: 264px;
+  color: #F4F4FD;
 }
