@@ -452,11 +452,7 @@ color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
-  color: var(--text-color);
-}
-
-:root {
-  --text-color: #FFFFFF; 
+  color: #FFFFFF;
 }
 
 .footer-list{
@@ -484,18 +480,10 @@ color: #434455;
   background-color: #31d0aa;
 }
 
-:root {
-  --main-bg-color: #4d5ae5; 
-}
-
 .link-media-footer {
-  background-color: var(--main-bg-color);
-}
-
-:root {
-  --icon-color: #f4f4fd; 
+  background-color: #4d5ae5;
 }
 
 .social-footer-icon{
-  fill: var(--icon-color);
+  fill: #f4f4fd;
 }
