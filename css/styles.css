@@ -369,17 +369,13 @@ h1 {
   overflow: hidden; 
 }
 
-:root {
-  --text-color: #f4f4fd; 
-}
-
 .app_description {
   position: absolute;
   top: 0;
   font-size: 16px; 
   line-height: 1.5; 
   letter-spacing: 0.02em; 
-  color: var(--text-color);
+  color: #f4f4fd;
   padding: 40px 32px;
   background-color: #4d5ae5;
   height: 100%; 
