@@ -734,6 +734,7 @@ pointer-events: none;
 
 .privacy-policys {
   color: var(--link-color, #4d5ae5);
+  text-decoration: underline;
 }
 
 .submit-buttons{
