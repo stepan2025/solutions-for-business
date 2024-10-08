@@ -593,6 +593,7 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-b
 }
 
 .button-modal:hover{
+  background-color: #404bbf;
   border: none;
 }
 
@@ -685,6 +686,7 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-b
   outline: transparent;
   resize: none; 
   border-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .text-area:focus {
