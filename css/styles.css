@@ -524,6 +524,11 @@ color: #434455;
   color: #ffffff; 
 }
 
+.subscribe-input:hover,
+.subscribe-input:focus {
+  border-color: #4d5ae5; 
+}
+
 .subscribe-button {
   min-width: 165px;
   height: 40px;
@@ -541,6 +546,15 @@ color: #434455;
   border: none;
   border-radius: 4px;
 }
+
+.subscribe-button:hover{
+  background-color: #404BBF; 
+}
+
+.subscribe-button:focus{
+  background-color: #404BBF; 
+}
+
 
 .subscribe-icon {
   margin-left: 16px;
@@ -694,7 +708,7 @@ pointer-events: none;
   padding: 8px 16px; 
   outline: transparent;
   resize: none; 
-  border-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: black;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -754,3 +768,12 @@ pointer-events: none;
   margin-right: auto; 
   margin-left: auto;
 }
+
+.submit-buttons:hover{
+  background-color: #404BBF; 
+}
+
+.submit-buttons:focus{
+  background-color: #404BBF; 
+}
+
