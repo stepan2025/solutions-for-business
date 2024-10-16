@@ -779,3 +779,33 @@ pointer-events: none;
   background-color: #404BBF; 
 }
 
+@media (min-width: 320px){
+
+}
+
+@media (min-width: 768px) and (max-width: 1158px){
+  .container{
+    padding: 0 16px; 
+    width: 768px;
+  }
+  .contact-list{
+    display: flex; 
+    flex-direction: column; 
+    gap: 12px;
+  }
+  .nav-link{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: 0.04em;
+    color: var(--slate);
+    
+  }
+  /* .nav-link:last-child{
+    margin-bottom: 16px;
+  }
+  .nav-link:first-child{
+    margin-top: 16px;
+  } */
+}
