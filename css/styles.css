@@ -787,6 +787,7 @@ pointer-events: none;
   .container{
     padding: 0 16px; 
     width: 768px;
+    margin-right: 120px;
   }
   .contact-list{
     display: flex; 
@@ -802,10 +803,10 @@ pointer-events: none;
     color: var(--slate);
     
   }
-  /* .nav-link:last-child{
+  .nav-link:last-child{
     margin-bottom: 16px;
   }
   .nav-link:first-child{
     margin-top: 16px;
-  } */
+  }
 }
