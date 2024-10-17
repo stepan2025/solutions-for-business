@@ -808,6 +808,18 @@ pointer-events: none;
     color: var(--slate); 
   }
   .services{
+    background-color: #2e2f42;
+    padding: 112px 0;
+    background-image: 
+    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+    url(../images/office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  /* .services{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -818,5 +830,5 @@ pointer-events: none;
       position: relative;
       margin-top: -81px; 
       text-align: center;
-    }
+    } */
 }
