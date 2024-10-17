@@ -805,7 +805,18 @@ pointer-events: none;
     font-size: 12px;
     line-height: 117%;
     letter-spacing: 0.04em;
-    color: var(--slate);
-    
+    color: var(--slate); 
   }
+  .services{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 768px;
+    height: 436px;
+    }
+    .logo-one{
+      position: relative;
+      margin-top: -81px; 
+      text-align: center;
+    }
 }
