@@ -788,7 +788,7 @@ pointer-events: none;
 @media (min-width: 768px) and (max-width: 1158px){
   .container{
     padding: 0 16px; 
-    width: 768px;
+    width: 753px;
     }
   .contact-list{
     display: flex; 
@@ -844,7 +844,7 @@ pointer-events: none;
     gap: 24px;
   }
   .strategy-options{
-    width: 48.1%;
+    width: 48.33%;
   }
   .team-preview{
     flex-wrap: wrap;
@@ -867,12 +867,11 @@ pointer-events: none;
   .portfolio_section{
     padding: 120px 0 52px 0;
   }
-   .container{
+   .container-two{
     display: flex; 
     flex-direction: row;
     flex-wrap: wrap; 
     gap: 72px 24px;
-    width: 584px;
    }
    .logo_link,
    .text-footer,
@@ -883,5 +882,5 @@ pointer-events: none;
    .container-footer{
     margin-right: 0;
     margin-left: 0;
-   }
+   } 
 }
