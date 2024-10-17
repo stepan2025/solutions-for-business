@@ -866,17 +866,13 @@ pointer-events: none;
     flex-direction: row;
     flex-wrap: wrap; 
     gap: 72px 24px;
+    width: 456px;
    }
    .logo_link,
    .text-footer,
-   .right-footer{
+   .right-footer,{
     margin-left: 0;
-    margin-right: 0; 
    } 
-   .container-footer{
-    margin-right: 0;
-    margin-left: 0;
-   }  
    .footer{
     padding: 105px 0;
     height: 471px;
