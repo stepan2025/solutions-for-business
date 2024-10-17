@@ -815,8 +815,9 @@ pointer-events: none;
     url(../images/office.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
-    max-width: 768px;
+    background-size: cover;
+    width: 768px;
+    height: 436px;
     margin: 0 auto;
   }
   /* .services{
