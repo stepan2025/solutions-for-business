@@ -868,17 +868,16 @@ pointer-events: none;
   .portfolio_section{
     padding: 120px 0 52px 0;
   }
-  .container-two{
-    flex-direction: column;
-    margin-left: 96px;
-  }
-  .right-footer{
-    align-items: flex-end;
-  }
-  .subscribe-text{
-    margin-bottom: 16px;
-  }
-  .subscribe-form{
-    gap:24px;
-  }
+   .container{
+    display: flex; 
+    flex-direction: column; 
+    flex-wrap: wrap; 
+    gap: 72px 24px;
+   }
+   .logo_link,
+   .text-footer,
+   .right-footer{
+    margin-left: 0;
+    margin-right: 0;
+   }
 }
