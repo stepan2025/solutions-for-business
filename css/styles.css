@@ -791,13 +791,11 @@ pointer-events: none;
     padding: 0 16px; 
     width: 768px;
     }
-  .logo{
-    margin-right: 120px; 
-  }
   .contact-list{
     display: flex; 
     flex-direction: column; 
     gap: 12px;
+    margin-right: 118px;
   }
   .nav-link{
     font-family: var(--font-family);
@@ -807,9 +805,12 @@ pointer-events: none;
     letter-spacing: 0.04em;
     color: var(--slate); 
   }
+  .logo {
+    margin-right: 60px;
+}
   .services{
     background-color: #2e2f42;
-    padding: 112px 0;
+    padding: 101px 0;
     background-image: 
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
     url(../images/office.jpg);
@@ -820,16 +821,4 @@ pointer-events: none;
     height: 436px;
     margin: 0 auto;
   }
-  /* .services{
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 768px;
-    height: 436px;
-    }
-    .logo-one{
-      position: relative;
-      margin-top: -81px; 
-      text-align: center;
-    } */
 }
