@@ -871,7 +871,9 @@ pointer-events: none;
   .container-two{
     flex-direction: column;
     margin-left: 96px;
-  
+  }
+  .right-footer{
+    align-items: flex-end;
   }
   .subscribe-text{
     margin-bottom: 16px;
