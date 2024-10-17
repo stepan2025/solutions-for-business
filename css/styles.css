@@ -795,8 +795,10 @@ pointer-events: none;
     display: flex; 
     flex-direction: column; 
     gap: 12px;
-    margin-right: 118px;
   }
+  .logo {
+    margin-right: 120px;
+}
   .nav-link{
     font-family: var(--font-family);
     font-weight: 400;
@@ -805,20 +807,76 @@ pointer-events: none;
     letter-spacing: 0.04em;
     color: var(--slate); 
   }
-  .logo {
-    margin-right: 60px;
-}
   .services{
     background-color: #2e2f42;
-    padding: 101px 0;
+    padding: 96px 0;
     background-image: 
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
     url(../images/office.jpg);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 768px;
     height: 436px;
-    margin: 0 auto;
+    margin-bottom: -29px;
+  }
+  .icon-container{
+    display: none;
+  }
+  .strategy_item{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+    margin-bottom: 8px;
+  }
+  .goal{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+    margin-bottom: 55px;
+    max-height: 4.5em;
+  }
+  .strategy-list{
+    flex-wrap: wrap;
+    margin-bottom: -87px;
+    gap: 24px;
+  }
+  .strategy-options{
+    width: 48.1%;
+  }
+  .team-preview{
+    flex-wrap: wrap;
+  }
+  .idn{
+    width: 35.9%;
+    margin-bottom: 45px;
+  }
+  .team{
+    padding: 122px 0 96px
+  }
+  .portfolio_list{
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .portfolio_item{
+    width: 48%;
+    margin-bottom: 42px;
+  }
+  .portfolio_section{
+    padding: 120px 0 52px 0;
+  }
+  .container-two{
+    flex-direction: column;
+    margin-left: 96px;
+  
+  }
+  .subscribe-text{
+    margin-bottom: 16px;
+  }
+  .subscribe-form{
+    gap:24px;
   }
 }
