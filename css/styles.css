@@ -800,6 +800,7 @@ pointer-events: none;
   width: 320px;
   padding: 41px 0;
   height: 432px;
+  margin-bottom: -20px;
   }
   .logo-one{
   font-family: 'Roboto', sans-serif;
@@ -812,9 +813,28 @@ pointer-events: none;
   max-width: 216px;
   height: 160px;
   margin-top: 27px;
+  margin-bottom: 77px;
   }
-  .button{
-
+  .strategy_item{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  .strategy-list{
+    display:block;
+  }
+  .goal{
+    width: 288px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+  }
+  .strategy-options{
+    margin-bottom: 66px;
   }
 }
 
