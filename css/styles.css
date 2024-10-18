@@ -771,7 +771,51 @@ pointer-events: none;
 }
 
 @media (min-width: 320px) and (max-width: 767px){
+  .container{
+    padding: 0 16px; 
+    width: 320px;
+    }
+  .menu,
+  .contact-list,
+  .icon-container{
+    display: none;
+  }
+  .logo { 
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  .services{
+  background-color: #2e2f42;
+  background-image: 
+  linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+  url(../images/office2.jpg);
+  background-repeat: no-repeat;
+  width: 320px;
+  padding: 41px 0;
+  height: 432px;
+  }
+  .logo-one{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500; 
+  font-size: 37px;
+  letter-spacing: 0.02em; 
+  line-height: 111%;
+  color: #ffffff; 
+  text-align: center;  
+  max-width: 216px;
+  height: 160px;
+  margin-top: 27px;
+  }
+  .button{
 
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1157px){
