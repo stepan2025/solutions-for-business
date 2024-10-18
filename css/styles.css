@@ -859,8 +859,19 @@ pointer-events: none;
    }
    .right-footer,
    .footer-list,
-   .social-icon-footer{
+   .social-icon-footer,
+   .subscribe-container,
+   .subscribe-button{
     text-align: center;
+   }
+   .right-footer{
+    margin-top: 79px;
+   }
+   .subscribe-container{
+    margin-top: 79px;
+   }
+   .subscribe-input{
+    margin-bottom: 16px;
    }
 }
 
