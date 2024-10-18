@@ -441,10 +441,6 @@ color: #434455;
   align-items: baseline;
 }
 
-.container-footer{
-  margin-right: 120px;
-}
-
 .right-footer{
   margin-right: 80px;
 }
@@ -778,7 +774,7 @@ pointer-events: none;
   background-color: #404BBF; 
 }
 
-@media (min-width: 768px) and (max-width: 1158px){
+@media (min-width: 768px) and (max-width: 1157px){
   .container{
     padding: 0 16px; 
     width: 768px;
@@ -874,3 +870,10 @@ pointer-events: none;
     width: 584px;
    }
 }
+
+@media (min-width: 1158px){
+  .container-footer{
+    margin-right: 120px;
+  }
+}
+
