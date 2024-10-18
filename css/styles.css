@@ -864,10 +864,10 @@ pointer-events: none;
     gap: 72px 24px;
     margin-right: 0;
     margin-left: 0;
+    width: 584px;
    }
    .footer{
     padding: 105px 0;
-    width: 584px;
    }
 }
 
