@@ -858,8 +858,6 @@ pointer-events: none;
     padding: 120px 0 52px 0;
   }
    .container-two{
-    display: flex; 
-    flex-direction: row;
     flex-wrap: wrap; 
     gap: 72px 24px;
     width: 584px;
