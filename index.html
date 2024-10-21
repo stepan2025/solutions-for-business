@@ -30,10 +30,67 @@
                     <li><a href="tel:+110001111111" class="nav-link">+11 (000) 111-11-11</a></li>
                 </ul>
             </address>
+
+            <button class="burger-btn" type="button" data-menu-open>
+                <svg class="burger-icon" height="24" width="24">
+                    <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+                </svg>
+            </button>
         </div>
+
+        <div class="mobile-menu" data-menu>
+            <div class="container mobile-menu-container">
+                <button class="mobile-menu-close" data-menu-close>Close</button>
+                <nav class="mobile-menu-nav">
+                    <a href="./index.html" target="_blank" class="">Web<span>Studio</span></a>
+                    <ul class="">
+                        <li><a href="./index.html" target="_blank" class="">Studio</a></li>
+                        <li><a href="" target="_blank" class="">Portfolio</a></li>
+                        <li><a href="" target="_blank" class="">Contacts</a></li>
+                    </ul>
+                </nav>
+                <address class="">
+                    <ul class="">
+                        <li><a href="mailto:info@devstudio.com" class="">info@devstudio.com</a></li>
+                        <li><a href="tel:+110001111111" class="">+11 (000) 111-11-11</a></li>
+                    </ul>
+                </address>
+                <ul class="social-media">
+                    <li class="link-media">
+                        <a href="./images/social-icon.svg#icon-id" target="_blank" class="link-sections"> 
+                            <svg width="16" height="16" class="social-icon"> 
+                                <use href="./images/icons.svg#icon-instagram"></use> 
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="link-media">
+                        <a href="./images/social-icon.svg#icon-id" target="_blank" class="link-sections"> 
+                            <svg width="16" height="16" class="social-icon"> 
+                                <use href="./images/icons.svg#icon-twitter"></use> 
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="link-media">
+                        <a href="./images/social-icon.svg#icon-id" target="_blank" class="link-sections"> 
+                            <svg width="16" height="16" class="social-icon"> 
+                                <use href="./images/icons.svg#icon-facebook"></use> 
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="link-media">
+                        <a href="./images/social-icon.svg#icon-id" target="_blank" class="link-sections"> 
+                            <svg width="16" height="16" class="social-icon"> 
+                                <use href="./images/icons.svg#icon-linkedin"></use> 
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
     </header>  
 
- 
+
 
     <main>
 
@@ -443,9 +500,10 @@
         </div>
     </div>
 
-   <script src="./js/modal.js"></script> 
 
-   
+   <script src="./js/modal.js"></script> 
+   <script src="./js/menu.js"></script> 
+    
 
 </body>
 </html>
