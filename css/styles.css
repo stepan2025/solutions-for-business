@@ -908,6 +908,9 @@ pointer-events: none;
    button{
     cursor: pointer;
    }
+   .idn{
+    background-color: white;
+  }
 }
 
 /* TABLET */
@@ -916,6 +919,9 @@ pointer-events: none;
   .container{
     padding: 0 16px; 
     width: 768px;
+    }
+    .idn{
+      background-color: white;
     }
     .burger-btn{
       display: none;
@@ -926,7 +932,7 @@ pointer-events: none;
     gap: 1.5px;
   }
   .logo {
-    margin-right: 106px;
+    margin-right: 119px;
 }
   .nav-link{
     font-weight: 400;
