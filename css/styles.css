@@ -848,7 +848,6 @@ pointer-events: none;
   .portfolio_section{
     padding: 96px 0;
   }
-  /* footer */
   .container-two{
     display: block; 
    }
@@ -1015,9 +1014,6 @@ pointer-events: none;
   .strategy-items{
     padding: 96px 0;
   }
-
-  /* footer */
-
    .container-two{
     flex-wrap: wrap; 
     gap: 72px 24px;
@@ -1216,6 +1212,8 @@ pointer-events: none;
     display:none;
   }
 }
+
+/* images */
 
 @media screen and (min-width: 1158px) {
   .hero-wrap {	
