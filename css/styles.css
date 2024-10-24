@@ -1195,3 +1195,29 @@ pointer-events: none;
     display:none;
   }
 }
+
+@media screen and (min-width: 1158px) {
+  .hero-wrap {	
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+     ), url(../images/mark2.jpg),
+     url(../images/img2x.jpg),
+     url(../images/img3x.jpg),
+     url(../images/img4x.jpg);
+    }
+    
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-wrap {
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+     ), url(../images/mark2.jpg),
+     url(../images/img2x.jpg),
+     url(../images/img3x.jpg),
+     url(../images/img4x.jpg);
+    }
+    }
+  }
