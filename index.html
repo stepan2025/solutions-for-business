@@ -319,29 +319,13 @@
         <ul class="portfolio_list">
             <li class="portfolio_item">
                 <div class="img_container">
-                <!-- <img src="./images/img11.jpg" class="portfolio_image" alt="Banking App" width="360" height="300" /> -->
                 <picture>
-                    <source
-                      srcset="./images/img11.jpg"
-                      media="(min-width: 1158px)"
-                    />
-                    <source
-                      srcset="
-                        ./images/ll.jpg    1x,
-                        ./images/portfolio-img-tab-@2x.jpg 2x
-                      "
-                      media="(min-width: 768px)"
-                    />
-                    <source
-                      srcset="
-                        ./images/phon.jpg    1x,
-                        ./images/portfolio-img-mob-@2x.jpg 2x
-                      "
-                      media="(max-width: 767px)"
-                    />
+                    <source srcset="./images/img11.jpg" media="(min-width: 1158px)"/>
+                    <source srcset="./images/ll.jpg    1x, ./images/img11.-@2x.jpg 2x" media="(min-width: 768px)"/>
+                    <source srcset="./images/phon.jpg    1x, ./images/img11.-@2x.jpg 2x" media="(max-width: 767px)"/>
                     <img
-                      src="./images/portfolio-img-mob.jpg"
-                      alt="portfolio pictxure"
+                      src="./images/phon.jpg"
+                      alt="portfolio picture"
                     />
                   </picture>
                 <p class="app_description">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
