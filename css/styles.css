@@ -909,6 +909,13 @@ pointer-events: none;
    .idn{
     background-color: white;
   }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .services {
+      background-image:
+      linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+      url(../images/pc2.jpg);
+    }
+  }
 }
 
 /* TABLET */
@@ -1019,6 +1026,13 @@ pointer-events: none;
    .footer{
     padding: 105px 0;
    }
+   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .services {
+      background-image:
+      linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+      url(../images/pc1.jpg);
+    }
+  }
 }
 
 /* pc */
@@ -1061,6 +1075,13 @@ pointer-events: none;
   .text-footer{
     max-width: 264px;
     color: #F4F4FD;
+  }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .services {
+      background-image:
+      linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+      url(../images/people-office1.jpg);
+    }
   }
 }
 
