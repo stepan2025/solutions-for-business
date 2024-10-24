@@ -191,10 +191,6 @@ h1 {
 
 /* section 2 */
 
-.strategy-items{
-  padding: 120px 0;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -310,10 +306,6 @@ h1 {
 }
 
 /*  section 4 */
-
-.portfolio_section{
-  padding: 120px 0 120px 0;
-}
 
 .portfolio_title{
   margin-bottom: 72px;
@@ -709,6 +701,7 @@ pointer-events: none;
   justify-content: center; 
   fill: transparent;
   margin-right: 8px;
+  flex-shrink: 0;
 }
 
 .checkbox-class:checked + .label-class .form-span {
@@ -760,6 +753,10 @@ pointer-events: none;
   .icon-container{
     display: none;
   }
+  header{
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
   img{
     display:block;
     max-width: 100%;
@@ -773,8 +770,6 @@ pointer-events: none;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-top: 16px;
-    margin-bottom: 16px;
   }
   .services{
   background-color: #2e2f42;
@@ -783,9 +778,7 @@ pointer-events: none;
   url(../images/office2.jpg);
   background-repeat: no-repeat;
   max-width: 320px;
-  padding: 41px 0;
-  height: 432px;
-  margin-bottom: -5px;
+  padding: 72px 0;
   }
   .logo-one{
   font-family: 'Roboto', sans-serif;
@@ -796,9 +789,7 @@ pointer-events: none;
   color: #ffffff; 
   text-align: center;  
   max-width: 216px;
-  height: 160px;
-  margin-top: 27px;
-  margin-bottom: 76px;
+  margin-bottom: 72px;
   }
   .strategy_item{
     font-weight: 700;
@@ -822,7 +813,7 @@ pointer-events: none;
     margin-bottom: 66px;
   }
   .strategy-items {
-    margin-bottom: -59px;
+    padding: 96px 0;
   }
   .team-preview{
     display: block;
@@ -830,14 +821,18 @@ pointer-events: none;
   .idn{
     margin-bottom: 72px;
   }
+  .idn:last-child {
+    margin-bottom: 0;
+}
+  .strategy-options:last-child {
+    margin-bottom: 0;
+}
   .container-add{
     padding-right: 28px;
     padding-left: 28px;
   }
   .team{
-    margin-bottom: -16px;
-    padding-bottom: 1px;
-    padding-top: 96px;
+    padding: 96px 0;
   }
   .portfolio_list{
     display:block;
@@ -847,8 +842,11 @@ pointer-events: none;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: var(--white);
   }
+  .portfolio_item:last-child {
+    margin-bottom: 0;
+}
   .portfolio_section{
-    margin-bottom: -76px;
+    padding: 96px 0;
   }
   /* footer */
   .container-two{
@@ -943,13 +941,11 @@ pointer-events: none;
   }
   .services{
     background-color: #2e2f42;
-    padding: 96px 0;
+    padding: 112px 0;
     background-image: 
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
     url(../images/office.jpg);
     background-repeat: no-repeat;
-    height: 436px;
-    margin-bottom: -29px;
   }
   .icon-container{
     display: none;
@@ -974,20 +970,17 @@ pointer-events: none;
   }
   .strategy-list{
     flex-wrap: wrap;
-    margin-bottom: -87px;
-    gap: 24px;
+    gap: 72px 24px;
   }
   .strategy-options{
     width: calc((100% - 24px) / 2);
-    margin-bottom: 55px;
   } 
-
   .team-preview{
     flex-wrap: wrap;
+    gap: 64px 24px;
   } 
   .idn{
     width: 35.9%;
-    margin-bottom: 45px;
   } 
   .team{
     padding: 122px 0 96px
@@ -998,16 +991,22 @@ pointer-events: none;
   }
   .portfolio_item{
     width: 48%;
-    margin-bottom: 42px;
+    margin-bottom: 72px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: var(--white);
   }
+.portfolio_item+:nth-last-child(-n+2) {
+  margin-bottom: 0; 
+}
   .portfolio_section{
-    padding: 120px 0 52px 0;
+    padding: 96px 0;
   }
   .text-footer{
     max-width: 264px;
     color: #F4F4FD;
+  }
+  .strategy-items{
+    padding: 96px 0;
   }
 
   /* footer */
@@ -1027,6 +1026,12 @@ pointer-events: none;
 @media (min-width: 1158px){
   .container-footer{
     margin-right: 120px;
+  }
+  .portfolio_section{
+    padding: 120px 0 120px 0;
+  }
+  .strategy-items{
+    padding: 120px 0;
   }
   .burger-btn{
     display: none;
